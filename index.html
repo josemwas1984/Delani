@@ -7,8 +7,9 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link href="scripts.js">
         <link href="bootstrap.css">
-  </head>
-      <body>
+        <link href="jquery-3.4.1.js">
+   </head>
+       <body>
            <div class="container-j" id="mwas">
               <div class="row">
                   <div class="col-md-12 text-center " id="first">
@@ -48,48 +49,103 @@
             </div>
         </div>
 
-         <div class="Form">
-             <form action="action_page.php">
-                     <div class="row">
-                        <div class="col-25">
-                            <label for="fname">Your First Name</label>
-                            <div class="col-75">
-                                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                                </div>
-                              </div>
-                            </div>
-           <div class="row">
-              <div class="col-25">
-                  <label for="lname">Your Last Name</label>
-                        </div>
-                        <div class="col-75">
-                              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                          </div>
-                       </div>
-            <div class="row">
-                  <div class="col-25">
-                      <label for="country">Your Country</label>
-                          </div>
-                          <div class="col-75">
-                              <select id="country" name="country">
-                                <option value="kenya">Kenya</option>
-                                <option value="uganda">Uganda</option>
-                                <option value="tanzania">Tanzania</option>
-                              </select>
-                          </div>
-                     </div>
-              <div class="row">
-                    <div class="col-25">
-                          <label for="subject">Write Your Message Here</label>
-                            </div>
-                        <div class="col-75">
-                              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                      </div>
+        <div class="container specific ">
+          <h1 class="text-center what ">What we do</h1>
+          <div class="row text-center">
+              <div class="col-md-4 main">
+                  <img src="./images/services_icons/design_icon.png" class="show img-fluid">
+                  <h5><strong>DESIGN</strong></h5>
+                  <div class="hide">
+                      <p> Our design practice offers a full range of services including brand strategy,interaction and
+                          visual design and user experience testing.</p>
+                      <p>Throughout yuor project,our designers create and implement visual design and workflows,solicit
+                          user feedback and work with you to make sure what gets built is what is needed.</p>
+                  </div>
               </div>
-                  <div class="row">
-                        <input type="submit" value="Submit">
-                          </div>
-                    </form>
+              <div class="col-md-4 main">
+                  <img src="./images/services_icons/dev_icon.png" class="show img-fluid">
+                  <h5><strong>DEVELOPMENT</strong></h5>
+                  <div class="hide">
+                      <P>All engineers are fluent in the latest enterprise, mobile and web development technologies. They
+                          collaborate with your team to write, and improve code on a daily basis, using proven practices
+                          such as test-driven development and pair programming. </P>
+                  </div>
               </div>
-        </body>
-  </html>
+              <div class="col-md-4 main">
+                  <img src="./images/services_icons/product_icon.png" class="show img-fluid">
+                  <h5><strong>PRODUCT MANAGEMENT</strong></h5>
+                  <div class="hide">
+                      <p>Planning and development is iterative. Because we are constantly coding and testing, the products
+                          we build are always ready to go live. This iterative process allows for changes as business
+                          requirements evolve.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="container-fluid" id="portfolio">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="card-deck text-center">
+            <div class="card">
+                <img src="images/portfolio/work4.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="ptag font-weight-bold text-uppercase">Design <br>Kenya</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/portfolio/work3.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="ptag font-weight-bold text-uppercase">Ontario <br> security</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/portfolio/work2.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="ptag font-weight-bold text-uppercase">Design <br>Kenya</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/portfolio/work1.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="ptag font-weight-bold text-uppercase">Weather <br>Informer</p>
+                </div>
+            </div>        
+        </div>
+      </div>
+        <div class="card-deck text-center">
+            <div class="card">
+                <img src="images/portfolio/work5.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="ptag font-weight-bold text-uppercase">Lets <br>Chat</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/portfolio/work6.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="ptag font-weight-bold text-uppercase">Mobile <br>Application</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/portfolio/work7.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="ptag font-weight-bold text-uppercase">Mock-up <br>Kenya</p>
+                </div>
+            </div>
+            <div class="card">.
+                <img src="images/portfolio/work8.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="ptag font-weight-bold text-uppercase">Giraffe <br>Restaurant</p>
+                </div>
+            </div>
+         </div>
+
+      <div class="container-fluid " id="contact">
+        <h1 class="text-center con">CONTACT US</h1>
+        <form action="" class="form-cont">
+            <input type="text" name="" id="nameDetail" placeholder="Enter Name" required>
+            <input type="email" name="" id="" placeholder="Enter Email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Enter Message"></textarea><br>
+            <button type="submit " class="btn btn-primary">Submit</button>
+        </form>
+    </div>
