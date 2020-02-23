@@ -43,7 +43,7 @@ h6 {
 .footer p {
     font-family: Open+Sans;
 }
-.col-md-12 {
+.col-one {
     width: 100%;
     color: wheat;
     font-family: Open+Sans;
@@ -124,7 +124,7 @@ h1 {
     box-shadow: 0 0 20px rgb(0, 0, 0);
     margin: -3px;
     padding: 3px;
-    background: yellowgreen;
+    background: palevioletred;
 }
 #portfolio {
     width: 100%;
