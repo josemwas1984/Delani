@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Cute+Font|Merienda");
-@import url("https://fonts.googleapis.com/css?family=Akronim");
+@import url("https://fonts.google.com/specimen/Italianno?selection.family=Open+Sans");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -24,6 +23,7 @@
     padding-top: 120px;
     padding-bottom: 80px;
     text-align: center;
+    color: white;
 }
 #homep {
     padding-top: 14%;
@@ -32,37 +32,26 @@
 h6 {
     height: 1vh;
 }
-#about {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 .resize {
     font-size: cal(1vh + 1vw + .5vmin);
 }
-}
-#mwas {
-    background-image: url('../images/backgrounds/h_img.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-}
 #about,
 #service,
-#pple,
+#amaze,
 .specific,
 #contacts,
 .footer p {
-    font-family: 'Merienda', cursive;
+    font-family: Open+Sans;
 }
 .col-md-12 {
     width: 100%;
     color: wheat;
-    font-family: 'Akronim', cursive;
+    font-family: Open+Sans;
     font-size: calc(1vw + 1vh + .5vmin);
     font-size: 1.1em;
 }
 h1 {
-    font-family: 'Akronim', cursive;
+    font-family: Open+'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .card-deck {
     padding: 1% 4%;
