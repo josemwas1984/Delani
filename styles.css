@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Cute+Font|Merienda");
+@import url("https://fonts.googleapis.com/css?family=Akronim");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,108 +8,24 @@
 #about {
   margin-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
 #mwas {
-    background-image: url("/Delani/Images./h_img.jpg");
+    background-image: url("https://github.com/josemwas1984/Delani/blob/master/Images./h_img.jpg?raw=true");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    text-align: center;
 }
-  .Services {
-      font-size: x-large;
-      list-style-type: none;
-  }
-  input[type=text], select, textarea{
-      width: 100%;
-      padding: 12px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: unset;
-      resize: horizontal;
-      background-color: cornsilk;
-    }
-  
-    label {
-      padding: 12px 12px 12px 0;
-      display: table-row;
-    }
-  
-    input[type=submit] {
-      background-color: green;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      float: right;
-    }
-    
-    .Form {
-      width: 50%;
-      height: 50%;
-      border-radius: 5px;
-      background-color: blueviolet;
-      padding: 20px;
-      float: right;
-    }
-    
-    .col-25 {
-      float: left;
-      width: 25%;
-      margin-top: 6px;
-    }
-    
-    .col-75 {
-      float: left;
-      width: 50%;
-      margin-top: 6px;
-    }
-    
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    @media screen and (max-width:450px) {
-      .form-cont input {
-          width: 100%;
-          margin-top: 10px;
-      } 
-      body{
-          overflow-x: hidden;
-      }
-  }
-  @media screen and (max-width:1024px) {
-      * {
-          font-size: calc(1vw + 1vh + .5vmin);
-      }
-  }
-  
-    
-    @media screen and (max-width: 600px) {
-      .col-25, .col-75, input[type=submit] {
-        width: 100%;
-        margin-top: 0;
-      }
-    }
-    footer {
-      position: relative;
-      background-color: darkgray;
-      line-height: 0.6em;
-    }
-    #menu {
-      display: flex;
-      flex-flow: column;
-      font-size: xx-large;
-    }
-    @import url("https://fonts.googleapis.com/css?family=Cute+Font|Merienda");
-@import url("https://fonts.googleapis.com/css?family=Akronim");
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+#service {
+    background-image: url("https://raw.githubusercontent.com/josemwas1984/Delani/master/Images./s_image.jpg");
+    background-size: cover;
+    margin-bottom: 50px;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    text-align: center;
 }
-#first {
+#homep {
     padding-top: 14%;
     margin-bottom: 9%;
 }
@@ -121,201 +39,24 @@ h6 {
 .resize {
     font-size: cal(1vh + 1vw + .5vmin);
 }
-#about,
-#service,
-#pple,
-.specific,
-#contact,
-.footer p {
-    font-family: 'Merienda', cursive;
 }
-.col-md-12 {
-    width: 100%;@import url("https://fonts.googleapis.com/css?family=Cute+Font|Merienda");
-    @import url("https://fonts.googleapis.com/css?family=Akronim");
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
-    #first {
-        padding-top: 14%;
-        margin-bottom: 9%;
-    }
-    #hed {
-        background-image: url('../images/backgrounds/h_img.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
-    }
-    h6 {
-        height: 1vh;
-    }
-    #about {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    .resize {
-        font-size: cal(1vh + 1vw + .5vmin);
-    }
-    #about,
-    #service,
-    #pple,
-    .specific,
-    #contact,
-    .footer p {
-        font-family: 'Merienda', cursive;
-    }
-    .col-md-12 {
-        width: 100%;
-        color: #fff;
-        font-family: 'Akronim', cursive;
-        font-size: calc(1vw + 1vh + .5vmin);
-        font-size: 1.1em;
-    }
-    h1 {
-        font-family: 'Akronim', cursive;
-    }
-    #service {
-        background-image: url("file:///home/john/.cache/.fr-oBCMZ0/IP3-master/assets/backgrounds/s_image.jpg");
-        color: #fff;
-        margin-bottom: 50px;
-        background-position: center;
-        padding-top: 120px;
-        padding-bottom: 80px;
-    }
-    .card-deck {
-        padding: 1% 4%;
-    }
-    .specific {
-        margin-bottom: 4%;
-    }
-    .image1 {
-        padding-top: 9%;
-        margin-bottom: 3%;
-    }
-    .image2 {
-        margin-top: 20%;
-        padding: 35px 0;
-    }
-    .sermain {
-        margin-top: 15%;
-    }
-    .hide {
-        display: none;
-    }
-    .form-cont input {
-        width: 49%;
-        background: transparent;
-    }
-    .form-cont textarea {
-        margin-top: 10px;
-        width: 100%;
-        background: transparent;
-    }
-    #contact {
-        padding-top: 100px;
-        margin-bottom: 50px;
-        background-image: url('../images/backgrounds/c_image.jpg');
-        background-size: cover;
-        background-position: cover;
-        width: 100%;
-        max-width: 100%;
-        margin-top: 10%;
-    }
-    .footer {
-        margin-top: 30px;
-    }
-    .form-cont {
-        text-align: center;
-        position: relative;
-        width: 700px;
-        max-width: 100%;
-        left: 50%;
-        transform: translate(-50%);
-    }
-    ::placeholder,
-    .con {
-        color: #fff;
-    }
-    ::placeholder{
-        font-size: 10px;
-    }
-    .con {
-        padding-bottom: 30px;
-    }
-    .what {
-        margin-bottom: 30px;
-    }
-    #meso {
-        background-color: transparent;
-    }
-    .social img {
-        border-radius: 50%;
-        transition: 0.2s ease-out;
-    }
-    .social img:hover {
-        box-shadow: 0 0 20px rgb(0, 0, 0);
-        margin: -3px;
-        padding: 3px;
-        background: yellowgreen;
-    }
-    #portfolio img {
-        width: 100%;
-    }
-    .card {
-        margin: 10px 0;
-        position: relative;
-        overflow: hidden;
-    }
-    .card:hover img {
-        transform: scale(1.2);
-        transition: all 0.3s ease;
-    }
-    .card-1 {
-        position: absolute;
-        width: 100%;
-        min-height: 100%;
-        background: rgba(0, 0, 0, 0.582);
-        cursor: pointer;
-        display: none;
-        transition: all 0.5s ease;
-    }
-    .ptag {
-        padding: 5% 0;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.301);
-        padding: 50px 10px;
-        font-weight: 100%;
-        padding-top: 30px;
-        border: 4px solid whitesmoke;
-        font-size: 1.1em;
-        line-height: 90%;
-        margin: 20% 5%;
-        overflow: hidden;
-        letter-spacing: 2px;
-        font-family: 'Merienda', cursive;
-    }
-h6 {
-    height: 1vh;
-}
-#about {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.resize {
-    font-size: cal(1vh + 1vw + .5vmin);
+#mwas {
+    background-image: url('../images/backgrounds/h_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
 #about,
 #service,
 #pple,
 .specific,
-#contact,
+#contacts,
 .footer p {
     font-family: 'Merienda', cursive;
 }
 .col-md-12 {
     width: 100%;
-    color: #fff;
+    color: wheat;
     font-family: 'Akronim', cursive;
     font-size: calc(1vw + 1vh + .5vmin);
     font-size: 1.1em;
@@ -323,17 +64,9 @@ h6 {
 h1 {
     font-family: 'Akronim', cursive;
 }
-#service {
-    background-image: url('../images/backgrounds/s_image.jpg');
-    color: #fff;
-    margin-bottom: 50px;
-    background-position: center;
-    padding-top: 120px;
-    padding-bottom: 80px;
-}
 .card-deck {
     padding: 1% 4%;
-}
+    }
 .specific {
     margin-bottom: 4%;
 }
@@ -360,12 +93,11 @@ h1 {
     width: 100%;
     background: transparent;
 }
-#contact {
+#contacts {
+    background-image: url("https://github.com/josemwas1984/Delani/blob/master/Images./c_image.jpg?raw=true");
+    background-size: cover;
     padding-top: 100px;
     margin-bottom: 50px;
-    background-image: url('../images/backgrounds/c_image.jpg');
-    background-size: cover;
-    background-position: cover;
     width: 100%;
     max-width: 100%;
     margin-top: 10%;
@@ -381,15 +113,13 @@ h1 {
     left: 50%;
     transform: translate(-50%);
 }
-::placeholder,
 .con {
-    color: #fff;
+    color: white;
+    padding-bottom: 30px;
 }
 ::placeholder{
     font-size: 10px;
-}
-.con {
-    padding-bottom: 30px;
+    color: wheat;
 }
 .what {
     margin-bottom: 30px;
@@ -407,7 +137,7 @@ h1 {
     padding: 3px;
     background: yellowgreen;
 }
-#portfolio img {
+#portfolio {
     width: 100%;
 }
 .card {
@@ -428,7 +158,7 @@ h1 {
     display: none;
     transition: all 0.5s ease;
 }
-.ptag {
+.gen {
     padding: 5% 0;
     color: white;
     background-color: rgba(0, 0, 0, 0.301);
@@ -444,349 +174,16 @@ h1 {
     font-family: 'Merienda', cursive;
 }
 @media screen and (max-width:450px) {
-    .form-cont input {
-        width: 100%;@import url("https://fonts.googleapis.com/css?family=Cute+Font|Merienda");
-        @import url("https://fonts.googleapis.com/css?family=Akronim");
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        #first {
-            padding-top: 14%;
-            margin-bottom: 9%;
-        }
-        #hed {
-            background-image: url('../images/backgrounds/h_img.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            position: relative;
-        }
-        h6 {
-            height: 1vh;
-        }
-        #about {
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
-        .resize {
-            font-size: cal(1vh + 1vw + .5vmin);
-        }
-        #about,
-        #service,
-        #pple,
-        .specific,
-        #contact,
-        .footer p {
-            font-family: 'Merienda', cursive;
-        }
-        .col-md-12 {
-            width: 100%;
-            color: #fff;
-            font-family: 'Akronim', cursive;
-            font-size: calc(1vw + 1vh + .5vmin);
-            font-size: 1.1em;
-        }
-        h1 {
-            font-family: 'Akronim', cursive;
-        }
-        #service {
-            background-image: url('../images/backgrounds/s_image.jpg');
-            color: #fff;
-            margin-bottom: 50px;
-            background-position: center;
-            padding-top: 120px;
-            padding-bottom: 80px;
-        }
-        .card-deck {
-            padding: 1% 4%;
-        }
-        .specific {
-            margin-bottom: 4%;
-        }
-        .image1 {
-            padding-top: 9%;
-            margin-bottom: 3%;
-        }
-        .image2 {
-            margin-top: 20%;
-            padding: 35px 0;
-        }
-        .sermain {
-            margin-top: 15%;
-        }
-        .hide {
-            display: none;
-        }
-        .form-cont input {
-            width: 49%;
-            background: transparent;
-        }
-        .form-cont textarea {
-            margin-top: 10px;
-            width: 100%;
-            background: transparent;
-        }
-        #contact {
-            padding-top: 100px;
-            margin-bottom: 50px;
-            background-image: url('../images/backgrounds/c_image.jpg');
-            background-size: cover;
-            background-position: cover;
-            width: 100%;
-            max-width: 100%;
-            margin-top: 10%;
-        }
-        .footer {
-            margin-top: 30px;
-        }
-        .form-cont {
-            text-align: center;
-            position: relative;
-            width: 700px;
-            max-width: 100%;
-            left: 50%;
-            transform: translate(-50%);
-        }
-        ::placeholder,
-        .con {
-            color: #fff;
-        }
-        ::placeholder{
-            font-size: 10px;
-        }
-        .con {
-            padding-bottom: 30px;
-        }
-        .what {
-            margin-bottom: 30px;
-        }
-        #meso {
-            background-color: transparent;
-        }
-        .social img {
-            border-radius: 50%;
-            transition: 0.2s ease-out;
-        }
-        .social img:hover {
-            box-shadow: 0 0 20px rgb(0, 0, 0);
-            margin: -3px;
-            padding: 3px;
-            background: yellowgreen;
-        }
-        #portfolio img {
-            width: 100%;
-        }
-        .card {
-            margin: 10px 0;
-            position: relative;
-            overflow: hidden;
-        }
-        .card:hover img {
-            transform: scale(1.2);
-            transition: all 0.3s ease;
-        }
-        .card-1 {
-            position: absolute;
-            width: 100%;
-            min-height: 100%;
-            background: rgba(0, 0, 0, 0.582);
-            cursor: pointer;
-            display: none;
-            transition: all 0.5s ease;
-        }
-        .ptag {
-            padding: 5% 0;
-            color: white;
-            background-color: rgba(0, 0, 0, 0.301);
-            padding: 50px 10px;
-            font-weight: 100%;
-            padding-top: 30px;
-            border: 4px solid whitesmoke;
-            font-size: 1.1em;
-            line-height: 90%;
-            margin: 20% 5%;
-            overflow: hidden;
-            letter-spacing: 2px;
-            font-family: 'Merienda', cursive;
-        }
-        @media screen and (max-width:450px) {
-            .form-cont input {
-                width: 100%;
-                margin-top: 10px;
-            } 
-            body{
-                overflow-x: hidden;
-            }
-        }
-        @media screen and (max-width:1024px) {
-            * {
-                font-size: calc(1vw + 1vh + .5vmin);
-            }
-        }
-        
-        margin-top: 10px;
-    } 
-    body{
-        overflow-x: hidden;
-    }
-}
-@media screen and (max-width:1024px) {
-    * {
-        font-size: calc(1vw + 1vh + .5vmin);
-    }
-}
-
-        } 
-        body{
-            overflow-x: hidden;
-        }
-    }
-    @media screen and (max-width:1024px) {
-        * {
-            font-size: calc(1vw + 1vh + .5vmin);
-        }
-    }
-    
-    color: #fff;
-    font-family: 'Akronim', cursive;
-    font-size: calc(1vw + 1vh + .5vmin);
-    font-size: 1.1em;
-}
-h1 {
-    font-family: 'Akronim', cursive;
-}
-#service {
-    background-image: url('../images/backgrounds/s_image.jpg');
-    color: #fff;
-    margin-bottom: 50px;
-    background-position: center;
-    padding-top: 120px;
-    padding-bottom: 80px;
-}
-.card-deck {
-    padding: 1% 4%;
-}
-.specific {
-    margin-bottom: 4%;
-}
-.image1 {
-    padding-top: 9%;
-    margin-bottom: 3%;
-}
-.image2 {
-    margin-top: 20%;
-    padding: 35px 0;
-}
-.sermain {
-    margin-top: 15%;
-}
-.hide {
-    display: none;
-}
 .form-cont input {
-    width: 49%;
-    background: transparent;
-}
-.form-cont textarea {
+    width: 100%;
     margin-top: 10px;
-    width: 100%;
-    background: transparent;
+} 
+body{
+    overflow-x: hidden;
 }
-#contact {
-    padding-top: 100px;
-    margin-bottom: 50px;
-    background-image: url('../images/backgrounds/c_image.jpg');
-    background-size: cover;
-    background-position: cover;
-    width: 100%;
-    max-width: 100%;
-    margin-top: 10%;
-}
-.footer {
-    margin-top: 30px;
-}
-.form-cont {
-    text-align: center;
-    position: relative;
-    width: 700px;
-    max-width: 100%;
-    left: 50%;
-    transform: translate(-50%);
-}
-::placeholder,
-.con {
-    color: #fff;
-}
-::placeholder{
-    font-size: 10px;
-}
-.con {
-    padding-bottom: 30px;
-}
-.what {
-    margin-bottom: 30px;
-}
-#meso {
-    background-color: transparent;
-}
-.social img {
-    border-radius: 50%;
-    transition: 0.2s ease-out;
-}
-.social img:hover {
-    box-shadow: 0 0 20px rgb(0, 0, 0);
-    margin: -3px;
-    padding: 3px;
-    background: yellowgreen;
-}
-#portfolio img {
-    width: 100%;
-}
-.card {
-    margin: 10px 0;
-    position: relative;
-    overflow: hidden;
-}
-.card:hover img {
-    transform: scale(1.2);
-    transition: all 0.3s ease;
-}
-.card-1 {
-    position: absolute;
-    width: 100%;
-    min-height: 100%;
-    background: rgba(0, 0, 0, 0.582);
-    cursor: pointer;
-    display: none;
-    transition: all 0.5s ease;
-}
-.ptag {
-    padding: 5% 0;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.301);
-    padding: 50px 10px;
-    font-weight: 100%;
-    padding-top: 30px;
-    border: 4px solid whitesmoke;
-    font-size: 1.1em;
-    line-height: 90%;
-    margin: 20% 5%;
-    overflow: hidden;
-    letter-spacing: 2px;
-    font-family: 'Merienda', cursive;
-}
-@media screen and (max-width:450px) {
-    .form-cont input {
-        width: 100%;
-        margin-top: 10px;
-    } 
-    body{
-        overflow-x: hidden;
-    }
 }
 @media screen and (max-width:1024px) {
-    * {
-        font-size: calc(1vw + 1vh + .5vmin);
-    }
+* {
+    font-size: calc(1vw + 1vh + .5vmin);
+}
 }
