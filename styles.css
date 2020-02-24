@@ -41,7 +41,7 @@ h6 {
 .specific,
 #contacts,
 .footer p {
-    font-family: Open+Sans;
+    font-family: Open + 'Sans';
 }
 .col-one {
     width: 100%;
@@ -51,7 +51,7 @@ h6 {
     font-size: 1.1em;
 }
 h1 {
-    font-family: Open+'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Open + 'sans';
 }
 .card-deck {
     padding: 1% 4%;
@@ -160,7 +160,7 @@ h1 {
     margin: 20% 5%;
     overflow: hidden;
     letter-spacing: 2px;
-    font-family: 'Merienda', cursive;
+    font-family: open + 'sans';
 }
 @media screen and (max-width:450px) {
 .form-cont input {
