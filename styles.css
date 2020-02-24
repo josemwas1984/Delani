@@ -32,7 +32,7 @@
 h6 {
     height: 1vh;
 }
-.resize {
+.para {
     font-size: cal(1vh + 1vw + .5vmin);
 }
 #about,
